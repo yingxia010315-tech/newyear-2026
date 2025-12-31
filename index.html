@@ -385,7 +385,9 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 10||2026|小虾祝你|元旦快乐!|''|#countd
+      S.UI.simulate('|#countdown 10||2026|小虾祝你|新年快乐!|');
+    }
+
     S.Drawing.loop(function () {
       S.Shape.render();
     });
@@ -1105,4 +1107,3 @@ startBtn.addEventListener('click', () => {
 
 
 </body></html>
-
